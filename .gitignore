@@ -1,0 +1,41 @@
+# Dependencias
+node_modules/
+
+# Logs y gestores de paquetes
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+.pnpm-store/
+
+# Variables de entorno y secretos
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Cachés y temporales
+.cache/
+.tmp/
+*.tmp
+*.log
+*.bak
+*.new
+
+# Editores
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
+*~
+
+# Nota: dist/output.css SÍ se versiona para poder servir la web
+# en la Raspberry sin necesidad de compilar con Node.
